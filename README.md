@@ -21,14 +21,14 @@ You can install these directly in a notebook cell:
 
 Dataset
 Place your CSV dataset in an accessible directory. Update the file_path in the notebook to point to your dataset file.
+- **Running the Notebook**
+  - **Dataset Loading**: Set `file_path` to the location of your dataset.
+  - **Preprocessing**: The script processes and encodes the text data.
+  - **Data Splitting**: Divides the data into training and testing sets.
+  - **Tokenization**: Uses the BERT tokenizer for data processing.
+  - **TensorFlow Dataset Conversion**: Converts data for TensorFlow compatibility.
+  - **BERT Model Setup**: Includes loading, compiling, training, and evaluating the model.
 
-Running the Notebook
-Dataset Loading: Set file_path to the location of your dataset.
-Preprocessing: The script processes and encodes the text data.
-Data Splitting: Divides the data into training and testing sets.
-Tokenization: Uses the BERT tokenizer for data processing.
-TensorFlow Dataset Conversion: Converts data for TensorFlow compatibility.
-BERT Model Setup: Includes loading, compiling, training, and evaluating the model.
 
 Execution
 Run each cell in the Jupyter Notebook sequentially after setting up the dataset and installing the dependencies.
